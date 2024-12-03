@@ -14,7 +14,7 @@
 echo "Hello Word!";
 ?> 
 
-<p> 2. Não diferencia entre maicula e miniscula</p>
+<p> 2. Não diferencia entre maiuscula e miniscula</p>
 <?php
 ECHO "Hello World!<br>";
 echo "Hello World!<br>";
@@ -125,7 +125,7 @@ myTest();
 echo $y;
 ?>
 
-<P> 12. USAR PALAVRA CHAVE PARA PERMITIR QUA A VARIAVEL NAO SEJA EXCLUIDA APÓS A EXECUÇAO</P>
+<P> 12. USAR PALAVRA CHAVE PARA PERMITIR QUAL A VARIAVEL NAO SEJA EXCLUIDA APÓS A EXECUÇAO</P>
 <?php
 function myTest5() {
   static $x = 0;
@@ -140,6 +140,15 @@ echo "<br>";
 myTest();
 ?> 
 
+<p> 13. Utilizando o Echo que é semelhante o print para realizar a impressão
+
+<?php
+echo "Hello";
+//same as:
+echo("Hello");
+?>
+
+    
 
 
 
