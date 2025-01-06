@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html> <!-- Solicitação para o navegador reconhecer os recursos do html 5-->
+<html lang="en"> 
+<head> <!-- Cabeçalho ond é possivél inserir informações sobre a página -->
+    <meta charset="UTF-8"> <!-- Comando utilizado para que o navegador reconheça as palavras acentuadas-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> <!-- titulo do texto -->
 </head>
-<body>
+<body> <!-- Corpo do página-->
     <p> Revisão de comandos PHP</P>
 
     <h1> 1. Escrevendo em PHP</h1>
@@ -148,10 +148,11 @@ echo "Hello";
 echo("Hello");
 ?>
 
-    
-
-
 
 
 </body>
 </html>
+
+
+Meu projeto realizado nas aulas de Web coding
+
